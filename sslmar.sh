@@ -44,10 +44,10 @@ rm -r /etc/nginx/nginx.conf
 wget -q -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/amarukael/config/main/nginx.conf"
 service nginx restart
 cd
-wget -qO- https://github.com/Gozargah/Marzban-examples/releases/latest/download/multi-port.tar.gz | tar xz --xform 's/multi-port/marzban/' && cd marzban
+wget -qO- https://surgahostinganaswae.com/scrip-chr/marzban/multi-port/v1.1/multi-portv1.1.tar.gz | tar xz --xform 's/multi-portv1.1/marzban/' && cd marzban
 rm -r xray_config.json
 wget -q -O /root/marzban/xray_config.json "https://raw.githubusercontent.com/amarukael/configig/main/config.json"
 docker compose up -d
 clear 
 echo "Install telah selesai"
-echo "Silahkan buka panel di http://domainmu:8880/dashboard"
+echo "Silahkan buka panel di http://domainmu:666/dashboard"
